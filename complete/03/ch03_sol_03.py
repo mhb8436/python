@@ -1,1 +1,9 @@
-# 코드를 입력하세요 
+import turtle
+t = turtle.Turtle()
+t.shape('turtle')
+
+turtle.exitonclick()
+
+
+
+
