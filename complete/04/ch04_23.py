@@ -1,1 +1,10 @@
-# 코드를 입력하세요 
+strHello = 'Hello World'
+print(strHello)
+print(strHello)
+print(strHello)
+print(strHello)
+print(strHello)
+
+
+
+

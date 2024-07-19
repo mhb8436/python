@@ -1,1 +1,10 @@
-# 코드를 입력하세요 
+import keyword
+
+print(keyword.kwlist)
+
+
+
+
+
+
+

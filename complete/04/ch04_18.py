@@ -1,1 +1,8 @@
-# 코드를 입력하세요 
+your_flag = True
+print(your_flag)
+
+my_flag = False
+print(my_flag)
+
+
+

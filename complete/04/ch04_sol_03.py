@@ -1,1 +1,11 @@
-# 코드를 입력하세요 
+# input code 
+myNumber = 1
+print(myNumber)
+myNumber = '일'
+print(myNumber)
+
+
+
+
+
+

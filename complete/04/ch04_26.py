@@ -1,1 +1,5 @@
-# 코드를 입력하세요 
+message = input("입력하세요")
+print(message)
+
+
+

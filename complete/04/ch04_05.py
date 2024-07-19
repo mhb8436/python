@@ -1,1 +1,8 @@
-# 코드를 입력하세요 
+myChar = 'A'
+print(myChar)
+
+myChar = 'ABC'
+print(myChar)
+
+
+

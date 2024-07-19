@@ -1,1 +1,6 @@
-# 코드를 입력하세요 
+hello = "Hello Python"
+print(hello)
+
+
+
+
