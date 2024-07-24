@@ -6,6 +6,6 @@ print(not a2)
 a = 10
 print(a > 15)
 print(not(a > 15))
-
+print(not a < 15)
 
 
