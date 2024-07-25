@@ -1,1 +1,2 @@
-# 코드를 입력하세요 
+for i in range(10, 0, -1):
+    print(i)

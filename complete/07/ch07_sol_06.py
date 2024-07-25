@@ -1,1 +1,5 @@
-# 코드를 입력하세요 
+for i in range(1, 99, 3): print(i)
+print('----------------')
+for i in range(-10, 12, 2): print(i)
+print('----------------')
+for i in range(0, 70, 5): print(i)

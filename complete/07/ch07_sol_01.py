@@ -1,1 +1,4 @@
-# 코드를 입력하세요 
+for i in range(2, 80, 2):
+    print(i)
+
+    

@@ -1,1 +1,7 @@
-# 코드를 입력하세요 
+num = 1
+
+while num <= 100:
+    print('num:', num)
+    num += 1
+
+
