@@ -1,1 +1,10 @@
-# 코드를 입력하세요 
+colors = ['red','green','blue']
+colors.pop()
+print(colors)
+
+result = colors.pop()
+print(result)
+print(colors)
+
+
+

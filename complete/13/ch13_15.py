@@ -1,1 +1,9 @@
-# 코드를 입력하세요 
+import json
+
+with open('../data.json', 'r') as file:
+    data = json.load(file)
+
+print(data)
+
+
+

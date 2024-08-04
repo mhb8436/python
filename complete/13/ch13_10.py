@@ -1,1 +1,7 @@
-# 코드를 입력하세요 
+file = open('../test.txt','r')
+result = file.read()
+print(f"type of result => {type(result)}")
+print(f"result => {result}")
+file.close()
+
+

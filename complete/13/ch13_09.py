@@ -1,1 +1,8 @@
-# 코드를 입력하세요 
+file = open('../test.txt','w')
+result = file.write('Hello Python')
+print(f"type of result => {type(result)}")
+print(f"result => {result}")
+file.close()
+
+
+

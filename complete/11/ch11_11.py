@@ -1,1 +1,7 @@
-# 코드를 입력하세요 
+def add(n1,n2,n3):
+    sum = n1 + n2 + n3
+    print(sum)
+
+add(1,2,3)
+
+

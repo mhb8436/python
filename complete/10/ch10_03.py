@@ -1,1 +1,6 @@
-# 코드를 입력하세요 
+def hello():
+    print('Hello World')
+
+hello()
+
+

@@ -1,1 +1,6 @@
-# 코드를 입력하세요 
+result = 10 / 0
+
+print("hello world)
+      
+f = open('exception.txt')
+

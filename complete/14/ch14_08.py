@@ -1,1 +1,6 @@
-# 코드를 입력하세요 
+import requests
+
+response = requests.get("https://api.github.com")
+print(response.json())
+
+

@@ -1,1 +1,7 @@
-# 코드를 입력하세요 
+colors = ['red','green','blue', 'black','orange']
+print(colors)
+
+colors.remove('red')
+print(colors)
+
+

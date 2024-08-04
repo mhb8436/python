@@ -1,1 +1,7 @@
-# 코드를 입력하세요 
+def length(h, b):
+    return (h + b)*2
+
+def area(h, b):
+    return h * b
+
+
