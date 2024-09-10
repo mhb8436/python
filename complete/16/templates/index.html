@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <title>게시판</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>게시판</h1>
+        <!-- 게시글 목록 -->
+        <h2>게시글 목록</h2>
+        <figure>
+            <table>
+                <thead>
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>날짜</th>
+                        <th>조회수</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for post in posts%}
+                    <tr>
+                        <td>{{post.id}}</td>
+                        <td><a href="/view/{{post.id}}"> {{post.title}} </a></td>
+                        <td>{{post.writer}}</td>
+                        <td>{{post.write_at}}</td>
+                        <td>{{post.count}}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5">게시글이 없습니다.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </figure>
+        <p></p>
+        <a class="button" href="/create">글쓰기</a>
+    </div>
+</body>
+
+</html>
